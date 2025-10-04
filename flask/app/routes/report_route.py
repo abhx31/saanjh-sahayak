@@ -3,7 +3,6 @@ from app.controllers.text_extractor import extract_text_from_file
 from app.controllers.llm_analysis import analyze_medical_report 
 
 def medical_analysis_route(app):
-    print("Inside medical_analysis_route")
     @app.route('/report', methods=['POST'])
     def report():
         # Check if the request has a file
