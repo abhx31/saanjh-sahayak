@@ -374,7 +374,7 @@ export default function UploadReportPage() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label>Upload Medical Reports (Optional)</Label>
+                    <Label>Upload Medical Reports</Label>
                     <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-teal-500 transition-colors ">
                       <Label htmlFor="file-upload" className="cursor-pointer">
                         <div className="w-full flex flex-col items-center justify-center gap-2">
